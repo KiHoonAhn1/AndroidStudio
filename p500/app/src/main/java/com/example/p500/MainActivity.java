@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         String id = tx_id.getText().toString();
         String pwd = tx_pwd.getText().toString();
 //        Toast.makeText(this, id+pwd, Toast.LENGTH_SHORT).show();
-        String url = "http://192.168.0.9/android/login.jsp";
+        String url = "http://192.168.0.19/android/login.jsp";
         url += "?id="+id+"&pwd="+pwd;
 //        String result = HttpConnect.getString(url);
 //        thread 안에서 네트워크로 보내야 한다. 이러면 반응X
