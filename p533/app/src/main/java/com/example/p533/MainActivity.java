@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public void ckbt(View v) throws InterruptedException {
         progressDialog = new ProgressDialog(MainActivity.this);
         progressDialog.setTitle("Login ...");
-//            progressDialog.setCancelable(false);
+        progressDialog.setCancelable(false);
         progressDialog.show();
 
         String id = tx_id.getText().toString();

@@ -8,11 +8,11 @@
 
     <TextView
         android:id="@+id/tx_rank"
-        android:layout_width="wrap_content"
+        android:layout_width="49dp"
         android:layout_height="match_parent"
         android:layout_weight="1.5"
         android:gravity="center"
-        android:text="1위 "
+        android:text="10위 "
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -25,14 +25,14 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/tx_name"
-            android:layout_width="200dp"
+            android:layout_width="180dp"
             android:layout_height="match_parent"
             android:layout_weight="1.4"
             android:gravity="center_vertical"
@@ -80,7 +80,7 @@
 
         <TextView
             android:id="@+id/tx_rankInten"
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"

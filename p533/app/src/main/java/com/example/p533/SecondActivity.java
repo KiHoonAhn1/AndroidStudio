@@ -55,9 +55,10 @@ public class SecondActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(SecondActivity.this);
                 builder.setTitle(list.get(position).getMovieNm());
-                builder.setMessage("순위 : " + list.get(position).getRank() + "위 \n제목 : "+list.get(position).getMovieNm()
-                        +"\n개봉일 : " + list.get(position).getOpenDt() + "\n관객수 : " + list.get(position).getAudiAcc()+" 명");
+                builder.setMessage("순위 : " + list.get(position).getRank() +
+                        "위 \n개봉일 : " + list.get(position).getOpenDt() + "\n관객수 : " + list.get(position).getAudiAcc()+" 명");
 
+                builder.setIcon(imgs[Integer.parseInt(list.get(position).getRank())]);
                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int position) {
@@ -77,7 +78,7 @@ public class SecondActivity extends AppCompatActivity {
         protected void onPreExecute() {
             progressDialog = new ProgressDialog(SecondActivity.this);
             progressDialog.setTitle("Get Data ...");
-//            progressDialog.setCancelable(false);
+            progressDialog.setCancelable(false);
             progressDialog.show();
         }
 
@@ -95,7 +96,6 @@ public class SecondActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String s) {
-            progressDialog.dismiss();
             JSONArray ja = null;
             JSONObject jo = null;
 
@@ -121,6 +121,7 @@ public class SecondActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
+            progressDialog.dismiss();
             MovieAdapter movieAdapter = new MovieAdapter();
             listView.setAdapter(movieAdapter);
 
@@ -157,15 +158,24 @@ public class SecondActivity extends AppCompatActivity {
                 TextView tx_open = movieView.findViewById(R.id.tx_open);
                 TextView tx_audi = movieView.findViewById(R.id.tx_audi);
                 ImageView img1 = movieView.findViewById(R.id.movieImg);
-//              ImageView img2 = movieView.findViewById(R.id.img_updown);
+                ImageView img2 = movieView.findViewById(R.id.img_updown);
                 TextView tx_rankInten = movieView.findViewById(R.id.tx_rankInten);
                 tx_rank.setText(list.get(position).getRank()+"위");
                 tx_name.setText(list.get(position).getMovieNm());
                 tx_open.setText("개봉일 : "+list.get(position).getOpenDt()); // int는 String으로 변경해주기
                 tx_audi.setText("관객 수 : "+list.get(position).getAudiAcc()+" 명");
-                tx_rankInten.setText(list.get(position).getRankInten());
                 String i = list.get(position).getRank();
                 img1.setImageResource(imgs[Integer.parseInt(i)-1]);
+                if(Integer.parseInt(list.get(position).getRankInten()) < 0){
+                    tx_rankInten.setText(list.get(position).getRankInten());
+                    img2.setImageResource(R.drawable.down);
+                }else if(Integer.parseInt(list.get(position).getRankInten()) == 0){
+                    img2.setImageResource(R.drawable.non);
+                    tx_rankInten.setText("");
+                }else if(Integer.parseInt(list.get(position).getRankInten()) > 0){
+                    tx_rankInten.setText(list.get(position).getRankInten());
+                    img2.setImageResource(R.drawable.up);
+                }
                 return movieView;
             }
         } //end Adapter
