@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+        <device id="pixel" />
+      </config>
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="427161f0-37b8-4d2b-b5dd-541eac87e666" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../P323/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P342/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P351/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/androidTest/java/com/example/ws/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/Fragment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/Fragment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/Fragment3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/HttpConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/java/com/example/ws/SecondActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/cgv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/non.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/drawable/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/layout/activity_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/layout/fragment_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/layout/fragment_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/layout/fragment_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/layout/movie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/menu/mymenu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/app/src/test/java/com/example/ws/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WS/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WSpractice/app/src/main/res/drawable/non.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p244/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p244/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p251/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p275/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../p331/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/p533/HttpConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/p533/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P287.1/app/src/main/java/com/example/p287/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../P287.1/app/src/main/java/com/example/p287/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P287.1/app/src/main/res/menu/mymenu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P287.1/app/src/main/res/menu/mymenu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P323/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P323/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P323/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P323/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P342/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P342/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P342/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P342/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P351/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P351/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P351/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P351/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P351/app/src/main/java/com/example/p351/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../P351/app/src/main/java/com/example/p351/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p244/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p244/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p244/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p244/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p251/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p251/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p251/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p251/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p275/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p275/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p275/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p275/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p331/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p331/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p331/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p331/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p500/app/src/main/java/com/example/p500/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p500/app/src/main/java/com/example/p500/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p552/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p552/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p675/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p675/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p701/app/src/main/java/com/example/p701/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p701/app/src/main/java/com/example/p701/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p712/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p712/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p712/app/src/main/java/com/example/p712/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p712/app/src/main/java/com/example/p712/MainActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_28]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1j7QZnQFfD5TxDrZdpLtE7QLSG6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-20T03:30:09.160Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P287.1" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.p533" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Android\AndroidStudioProjects\p533\app\manifests" />
+      <recent name="C:\Android\AndroidStudioProjects\p533\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="p533.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="427161f0-37b8-4d2b-b5dd-541eac87e666" name="Default Changelist" comment="" />
+      <created>1603152707378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603152707378</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603152922113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="430" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603152922113" />
+    <state x="757" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1603334367004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603334367004" />
+    <state x="706" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603334069925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="251" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603334069925" />
+    <state x="756" y="260" key="FileChooserDialogImpl" timestamp="1603356497169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603356497169" />
+    <state x="477" y="147" key="SettingsEditor" timestamp="1603152930652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="477" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603152930652" />
+    <state x="770" y="282" key="chooseDestDirectoryDialog" timestamp="1603154604309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="770" y="282" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603154604309" />
+    <state x="668" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1603152886494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="329" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603152886494" />
+    <state x="780" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603153058915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603153058915" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/p533/SecondActivity.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
