@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         tx = findViewById(R.id.tx);
         FirebaseMessaging.getInstance().subscribeToTopic("car")
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -71,16 +72,29 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 vibrator.vibrate(1000);
             }
+//            PendingIntent fullScreenPendingIntent;
             manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
             NotificationCompat.Builder builder = null;
             if(Build.VERSION.SDK_INT >= 26){
                 if(manager.getNotificationChannel("ch1") == null){
-                    manager.createNotificationChannel(new NotificationChannel("ch1", "chname", NotificationManager.IMPORTANCE_DEFAULT));
+                    manager.createNotificationChannel(new NotificationChannel("ch1", "chname", NotificationManager.IMPORTANCE_HIGH));
                 }
                 builder = new NotificationCompat.Builder(MainActivity.this, "ch1");
             }else{
                 builder = new NotificationCompat.Builder(MainActivity.this);
             }
+//            Intent intent1 = new Intent(MainActivity.this, MainActivity.class);
+//            builder.setPriority(Notification.PRIORITY_MAX);
+//            fullScreenPendingIntent = PendingIntent.getActivity(
+//                    MainActivity.this, 101, intent, PendingIntent.FLAG_CANCEL_CURRENT
+//            );
+//            intent1.setClass(MainActivity.this, MainActivity.class);
+//            intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//            builder.setFullScreenIntent(fullScreenPendingIntent, true);
+//            builder.setAutoCancel(true);
+//            builder.setWhen(System.currentTimeMillis());
+//            builder.setContentIntent(fullScreenPendingIntent);
+
             builder.setContentTitle("Noti Test");
             builder.setContentText("Content Text");
             builder.setSmallIcon(R.drawable.img07);

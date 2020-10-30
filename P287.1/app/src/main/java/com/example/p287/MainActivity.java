@@ -21,6 +21,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity implements Fragment1.View1Manager {
+
     Fragment1 fragment1;
     Fragment2 fragment2;
     Fragment3 fragment3;

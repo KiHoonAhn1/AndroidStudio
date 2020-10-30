@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                             R.id.framelayout, fragment3).commit();
                     Toast.makeText(MainActivity.this, "tab3", Toast.LENGTH_SHORT).show();
                 } else if (item.getItemId() == R.id.tab4) {
-                    intent(getApplicationContext(), );
+//                    intent(getApplicationContext(), );
                 }
                 return false;
             }

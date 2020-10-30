@@ -21,6 +21,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -34,14 +35,14 @@ public class Fragment3 extends Fragment {
     SupportMapFragment supportMapFragment;
     GoogleMap gmap;
     Fragment map;
+    MapView mapView;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup viewGroup = null;
-        viewGroup = (ViewGroup) inflater.inflate(R.layout.fragment_3,container,false);
-
-        getSupportActionBar().hide();
+        viewGroup = (ViewGroup) inflater.inflate(R.layout.fragment_3, container, false);
+//        getSupportActionBar().hide();
         String [] permissions = {
                 Manifest.permission.ACCESS_FINE_LOCATION,
                 Manifest.permission.ACCESS_COARSE_LOCATION
@@ -56,8 +57,8 @@ public class Fragment3 extends Fragment {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 gmap = googleMap;
-                if(checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_DENIED
-                        || checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_DENIED
+                if(ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_DENIED
+                        || ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_DENIED
                 ){
 //            Toast.makeText(this, "Finish", Toast.LENGTH_LONG).show();
 //            finish();
@@ -72,13 +73,13 @@ public class Fragment3 extends Fragment {
                 gmap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
             }
         });
-        textView = findViewById(R.id.textView);
+        textView = viewGroup.findViewById(R.id.textView);
 
 
 
 
         MyLocation myLocation = new MyLocation();
-        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        locationManager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates(
                 LocationManager.GPS_PROVIDER, // GPS+NETWORK=PASSIVE / GPS는 app를 켜면 알아서 나옴
                 // PASSIVE_PROVIDER로 설정하고 버튼 누르면 바로 받아와진다(NETWORK 사용하기 때문에 빠른 것 같다)
@@ -141,7 +142,6 @@ public class Fragment3 extends Fragment {
         super.onResume();
         if (gmap != null) {
             gmap.setMyLocationEnabled(true);
-        }
-    }
-}
-}
+        }}}
+
+//    }}
