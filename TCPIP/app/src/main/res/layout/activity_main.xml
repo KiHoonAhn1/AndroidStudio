@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="clickBt2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tx_list"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="#EAD30A"
+        android:hint="list" />
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#1E3DE4"
+        android:hint="Target ip .."
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:background="#7DDD0D"
+        android:hint="Input Message ..."
+        android:textColor="#0B0A0A" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickBt"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로고침" />
+
+    <TextView
+        android:id="@+id/tx_msg"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:background="#EAD7BB"
+        android:hint="msg"
+        android:text="TextView" />
+</LinearLayout>
