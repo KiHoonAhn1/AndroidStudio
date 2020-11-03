@@ -10,10 +10,10 @@ public class Msg implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	// serialVersionUID¸¦ Áà¾ßµÈ´Ù
-	// ¹Ýµå½Ã SerializableÀ» implementsÇØ¾ß tcp/ip Åë°úÇÒ ¼ö ÀÖ´Ù
+//	 serialVersionUIDï¿½ï¿½ ï¿½ï¿½ßµÈ´ï¿½
+	// ï¿½Ýµï¿½ï¿½ Serializableï¿½ï¿½ implementsï¿½Ø¾ï¿½ tcp/ip ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½
 	private HashMap<String, Msg> maps;
-	private ArrayList<String> ips; // °´Ã¼ÀÇ Á÷·ÄÈ­(serializable ÀÌ µÇ¾îÀÖÁö ¾ÊÀ¸¸é stream Åë°ú ºÒ°¡´É)
+	private ArrayList<String> ips; // ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­(serializable ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ stream ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ï¿½ï¿½)
 //	private String ip;
 	private String id;
 	private String msg;

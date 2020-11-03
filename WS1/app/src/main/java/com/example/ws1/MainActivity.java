@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         String quiz = tx_quiz.getText().toString();
 //        Log.d("[TEST]",id+" "+pwd+" "+quiz);
 //        Toast.makeText(this, id+pwd+quiz, Toast.LENGTH_SHORT).show();
-        String url = "http://192.168.123.113/android/wsLogin.jsp";
+        String url = "http://192.168.35.179/android/wsLogin.jsp";
         url += "?id="+id+"&pwd="+pwd+"&quiz="+quiz;
 //        String result = HttpConnect.getString(url);
 //        thread 안에서 네트워크로 보내야 한다. 이러면 반응X

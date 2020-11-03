@@ -44,7 +44,7 @@ public class Fragment2 extends Fragment {
         viewGroup = (ViewGroup) inflater.inflate(R.layout.fragment_2, container, false);
 //        context = container.getContext();
         listView = viewGroup.findViewById(R.id.listView);
-        containers = viewGroup.findViewById(R.id.containers`);
+        containers = viewGroup.findViewById(R.id.containers);
         movieImg = viewGroup.findViewById(R.id.movieImg);
         list = new ArrayList<>();
         getData();

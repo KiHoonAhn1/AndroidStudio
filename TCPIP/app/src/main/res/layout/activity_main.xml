@@ -48,8 +48,14 @@
     <TextView
         android:id="@+id/tx_msg"
         android:layout_width="match_parent"
-        android:layout_height="404dp"
+        android:layout_height="377dp"
         android:background="#EAD7BB"
         android:hint="msg"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:text="TextView" />
 </LinearLayout>
