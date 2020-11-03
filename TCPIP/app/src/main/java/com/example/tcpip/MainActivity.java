@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
         tx_msg = findViewById(R.id.tx_msg);
         et_ip = findViewById(R.id.et_ip);
         et_msg = findViewById(R.id.et_msg);
-        port = 5555;
-        address = "192.168.0.144";
+        port = 5556;
+        address = "192.168.0.28";
         id = "[JEAN]";
         new Thread(con).start(); // 밑에 connect를 thread로 실행
 

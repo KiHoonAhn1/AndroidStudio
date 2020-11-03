@@ -1,8 +1,6 @@
 package com.example.p275;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.TaskStackBuilder;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
